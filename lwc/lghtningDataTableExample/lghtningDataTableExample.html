@@ -1,0 +1,5 @@
+<template>
+    <lightning-button label="show selected records" onclick={selectedRecords}></lightning-button>
+    <lightning-datatable columns={columns} data={data} key-field="id" onrowselection={handleSelectedRows} onrowaction={handleRowAction}
+    ></lightning-datatable>
+</template>
