@@ -1,0 +1,6 @@
+<template>
+    <lightning-input label="Enter Input" onchange={handleChange}></lightning-input>
+    <template if:true={message}>
+        <p>{upperCaseMessage}</p>
+    </template>
+</template>

@@ -1,0 +1,9 @@
+<template>
+    <div class="slds-card">
+        <div class="slds-small-size">
+            <lightning-combobox name="Record Types" label='Record Types' options={current} value={value}
+                placeholder="Select Field" onchange={getSelectedValue}></lightning-combobox>
+        </div>
+        <p>{value}</p>
+    </div>
+</template>
